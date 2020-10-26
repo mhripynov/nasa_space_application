@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Example title"
+        android:textAlignment="textStart"
+        android:textColor="#192A8E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/image"
+        android:padding="0sp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingStart="10sp"
+        android:paddingTop="10sp"
+        android:singleLine="true"
+        android:text="Example information"
+        android:textColor="#393737"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/low_border"
+        android:ellipsize="end"
+        android:padding="10sp"
+        android:singleLine="true"
+        android:text="Example information"
+        android:textColor="#393737"
+        android:textSize="18sp" />
+
+</LinearLayout>
